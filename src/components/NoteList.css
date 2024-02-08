@@ -1,0 +1,79 @@
+.noteList-container {
+  margin: 30px 0px;
+  width: 100%;
+}
+
+.noteList-container h2 {
+  margin: 10px 0px;
+}
+
+.noteList-not_archieved_notes,
+.noteList-archieved_notes {
+  display: flex;
+  gap: 20px;
+  align-items: start;
+  /* justify-content: flex-start; */
+  flex-wrap: wrap;
+  padding: 10px 15px;
+  margin-bottom: 50px;
+}
+
+.noteList-note {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 5px solid #FFC436;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #FFF0CE;
+  color: #0C356A;
+}
+
+.noteList-note.archieved {
+  background-color: #FFCC70;
+  border: 5px solid #FFFADD;
+  color: #22668D;
+}
+
+.noteList-note_title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.noteList-note_body {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.noteList-action_button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: end;
+}
+
+.noteList-archive_button,
+.noteList-delete_button,
+.noteList-undo_button {
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.noteList-delete_button {
+  color: rgb(255, 23, 23);
+}
+
+.noteList-archive_button {
+  color: rgb(187, 96, 11);
+}
+
+.noteList-undo_button {
+  color: rgb(0, 153, 255);
+}
+
+.noteList-not_notes {
+  font-weight: 700;
+  color: #279EFF;
+  font-size: 20px;
+}
